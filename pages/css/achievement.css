@@ -1,0 +1,227 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+.header {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: url(../../assets/carrer/mahakam-bridge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header img {
+    width: 75%;
+
+
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+    color: black;
+    max-width: 100%;
+    letter-spacing: 3px;
+}
+
+.btn.btn-secondary.change-color {
+    color: black;
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.btn.btn-secondary.change-color:hover {
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.btn.btn-secondary.dropdown-toggle.change-color {
+    color: black;
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.btn.btn-secondary.dropdown-toggle.change-color:hover {
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.dropdown-item.change-color {
+    background-color: grey;
+    letter-spacing: 3px;
+}
+
+.dropdown-item.change-color:hover {
+    background-color: rgb(66, 65, 65);
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.background {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.top-content {
+
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.left-content img {
+    margin: 50px;
+    float: left;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bottom-content {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    
+}
+
+.right-content {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+
+}
+.right-content-top h2 a {
+    color: grey;
+    
+
+}
+.right-content-top h2 a:hover {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+.right-content-top {
+    width: 100%;
+    min-height: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    padding: 70px;
+}
+
+
+/* NEXT CONTENT */
+
+.background2 {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.top-content2 {
+
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.left-content2 img {
+    margin: 50px;
+    float: left;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bottom-content2 {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    
+}
+
+.right-content2 {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+
+}
+.right-content-top2 h2 a {
+    color: grey;
+    
+
+}
+.right-content-top2 h2 a:hover {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+.right-content-top2 {
+    width: 100%;
+    min-height: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    color: rgb(5, 5, 5);
+    background-color: rgb(248, 245, 245);
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    padding: 70px;
+}
+
+.carousel-inner.change-size {
+    height: 600px;
+}
